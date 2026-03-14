@@ -1,0 +1,29 @@
+{
+  "name": "polymarket-money",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CLI tool to scan Polymarket opportunities for profit",
+  "main": "dist/index.js",
+  "scripts": {
+    "scan": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts --watch"
+  },
+  "keywords": [
+    "polymarket",
+    "trading",
+    "prediction",
+    "scanner"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1",
+    "polymarket": "^0.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
